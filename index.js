@@ -211,7 +211,7 @@ const tokenSigner = contract.connect(signer)
 
 // const usdtAmount = ethers.utils.parseUnits("1", 18)
 
-const transaction = await tokenSigner.transfer(selectedAccount, 100)
+const transaction = await tokenSigner.transfer(selectedAccount, "100")
 // console.log(transaction.hash)
   }
   catch(error){
